@@ -14,7 +14,6 @@ from pinecone import ServerlessSpec
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from langserve import add_routes
-from app.chain import chain as pinecone_wiki_chain
 
 load_dotenv()
 
